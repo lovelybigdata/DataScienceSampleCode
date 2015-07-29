@@ -10,9 +10,17 @@ def hello():
         {
             'title': '台南雙日遊',
             'content': '很多東西可以吃',
-            'photo': 'http://ext.pimg.tw/mimg47/1391871607-3002859607.jpg'
+            'photo': 'http://ext.pimg.tw/mimg47/1391871607-3002859607.jpg',
+            'id': 0,
+        },
+        {
+            'title': '北海岸牛排',
+            'content': '夫妻吵架，各開一家',
+            'photo': 'http://ext.pimg.tw/mimg47/1391871607-3002859607.jpg',
+            'id': 1,
         },
     ]
+
     return {
             'post_list': post_list
            }
