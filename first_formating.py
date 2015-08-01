@@ -30,7 +30,7 @@ print("Hi " + name + "How do you do")
 
 
 name = "Tim"
-print("Hi {}, How do you do")
+print( "Hi {}, How do you do".format(name)  )
 
 
 # 3.3 multiline

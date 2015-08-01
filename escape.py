@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-print "Romio\tJuia"
-print r"True \t lie"
+print "Romio\aJuia"
+print r"True \a lie"
 
-# 比較一下　有沒有加上　r 在前面代表什麼意思？
+#比較一下　有沒有加上　r 在前面代表什麼意思？
 
