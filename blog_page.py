@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 from bottle import route, run, template, view, debug
+import shelve
+from blog_from_shelve import blog2
 
 
 def article_compare(article1, article2):
