@@ -10,6 +10,11 @@ print("this is BMI Program V 1.0")
 print("this is {}'s BMI".format(name))
 print(">> {}".format(BMI))
 
+if BMI > 20:
+    print("Is it Healthy?")
+else BMI < 20:
+    print("Eat Much ")
+
 
 #  Practice, change  value content
 #  **, *     dont' use ^
