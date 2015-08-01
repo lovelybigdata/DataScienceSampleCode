@@ -23,7 +23,7 @@
                     </h2>
                 </div>
 
-                % if 'photo' in post:
+                % if 'photo' in post.keys():
                     <div class="thumbnail">
                         <img src="{{ post['photo'] }}" alt="">
                     </div>
