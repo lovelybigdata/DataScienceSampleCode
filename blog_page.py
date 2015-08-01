@@ -3,6 +3,7 @@ from bottle import route, run, template, view, debug
 
 
 @route('/blog/')
+@route('/')
 @view('blog_template')
 def hello():
 
