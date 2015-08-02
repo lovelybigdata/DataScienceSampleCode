@@ -7,7 +7,7 @@ def blog_all():
     conn = sqlite3.connect('Blog.sqlite')
     conn.row_factory = sqlite3.Row
     c = conn.cursor()
-    c.execute("SELECT * FROM  blog ORDER BY lng desc")
+    c.execute("SELECT * FROM  blog ORDER BY lat asc")
     data = c.fetchall()
     conn.close()
     return data
