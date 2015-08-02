@@ -11,6 +11,8 @@ def blog_all():
     return c.fetchall()  # You get a list of dict like object
 
 
+# http://localhost:8080/blog_sql/
+
 @route('/blog_sql/')
 @view('blog_template')
 def blog_sql():
