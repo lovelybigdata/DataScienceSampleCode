@@ -2,7 +2,7 @@
 from bottle import route, run, template, view, debug
 import shelve
 from d2_1_blog_from_shelve import blog2
-from blog_sql import blog_sql
+from d2_2_blog_sql import blog_sql
 from blog_detail import detail
 
 
